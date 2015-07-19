@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="student_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div align="right">
+            <asp:LoginView ID="LoginView1" runat="server">
+            <LoggedInTemplate>
+                WelCome :
+                <asp:LoginName ID="LoginName1" runat="server" />
+                <asp:LoginStatus ID="LoginStatus1" runat="server" />
+            </LoggedInTemplate>
+        </asp:LoginView>  
+
+    </div>
+    <div style="border-style: none none solid none; border-color: #0000FF; background-image: url('../images/images%20(1).jpg'); background-repeat: no-repeat; height: 103px;">
+
+    </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+      
+      
+            
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

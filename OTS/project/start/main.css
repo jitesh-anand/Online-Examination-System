@@ -1,0 +1,17 @@
+﻿body
+{
+    background-image: url('images/master1.jpg');
+   
+}
+
+#HyperLink1, #HyperLink2, #HyperLink3
+{
+    border-style: outset;
+    border-width: thick;
+    font-family: algerian;
+    color: #0066FF;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: normal;
+}
